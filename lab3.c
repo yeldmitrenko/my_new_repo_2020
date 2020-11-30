@@ -15,6 +15,7 @@ int main()
 
     is_UpperCase(string);
     printf("%d", is_UpperCase(string));
+	cout << "hello";
 
     return 0;
 }
@@ -28,5 +29,7 @@ bool is_UpperCase (char *string)
     }
     return true;
 }
+
+
 
 
